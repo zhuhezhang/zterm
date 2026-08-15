@@ -65,7 +65,7 @@ export const SETTINGS = {
       },
       "logPath": {
         "label": "日志保存目录",
-        "desc": "留空则保存至系统下载目录下的「zauterm-session-log」文件夹。须位于主目录、文稿、下载、桌面、音乐、图片、视频等用户目录下；Windows 还可选系统盘（通常为 C 盘）以外的整盘路径，Linux / macOS 还可选根分区以外的独立挂载点或外置卷（如 /mnt、/media、/Volumes 下路径），否则写入会被主进程拒绝"
+        "desc": "默认为「zauterm-session-log」文件夹。须位于主目录、文稿、下载、桌面、音乐、图片、视频等用户目录下；Windows 还可选系统盘（通常为 C 盘）以外的整盘路径，Linux / macOS 还可选根分区以外的独立挂载点或外置卷（如 /mnt、/media、/Volumes 下路径），否则写入会被主进程拒绝"
       },
       "saveSecretsToVault": {
         "label": "保存敏感凭据到加密存储",
@@ -301,7 +301,7 @@ export const SETTINGS = {
       },
       "logPath": {
         "label": "Log directory",
-        "desc": "Empty = Downloads/zauterm-session-log. Must be under user Home, Documents, Downloads, Desktop, Music, Pictures, Videos paths. On Windows you may also use a whole drive other than the system drive (usually C:). On Linux and macOS you may use separate mount points or external volumes outside the root filesystem (e.g. under /mnt, /media, or /Volumes). Other paths are rejected by the main process"
+        "desc": "Default is Downloads/zauterm-session-log. Must be under user Home, Documents, Downloads, Desktop, Music, Pictures, Videos paths. On Windows you may also use a whole drive other than the system drive (usually C:). On Linux and macOS you may use separate mount points or external volumes outside the root filesystem (e.g. under /mnt, /media, or /Volumes). Other paths are rejected by the main process"
       },
       "saveSecretsToVault": {
         "label": "Save secrets to encrypted storage",
